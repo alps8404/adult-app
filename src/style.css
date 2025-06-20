@@ -46,8 +46,12 @@ button:last-child {
 }
 
 .main-content {
-  padding: 150px;
+  margin-top: 40px; 
+  padding-top: 40px;  /* previously 150px which included everything */
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
+  /* border: 2px dashed red; */
 }
 
 .logo {
@@ -78,4 +82,25 @@ button:last-child {
 .navbar-nav .nav-link:hover,
 .navbar-nav .dropdown-toggle:hover {
   color: orange !important;
+}
+
+.card-img-custom {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-text{
+  text-align: left;
+  color: white;
+}
+.video-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  border-radius: 0%;
+}
+
+.video-card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
 }
