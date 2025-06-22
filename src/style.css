@@ -50,7 +50,7 @@ button:last-child {
   padding-top: 40px;  /* previously 150px which included everything */
   padding-left: 20px;
   padding-right: 20px;
-  text-align: center;
+   text-align: center; 
   /* border: 2px dashed red; */
 }
 
@@ -94,10 +94,10 @@ button:last-child {
   color: white;
 }
 .video-card {
-  border-radius: 10px;
   overflow: hidden;
   transition: transform 0.2s;
   border-radius: 0%;
+  width: 100%;
 }
 
 .video-card:hover {
