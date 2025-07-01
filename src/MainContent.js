@@ -8,7 +8,7 @@ function MainContent() {
   //fetch("https://indianhub-backend-k46a.onrender.com/api/videos") 
 
   useEffect(() => {
-  fetch("http://localhost:8080/api/videos")
+  fetch("https://indianhub-backend-k46a.onrender.com/api/videos")
     .then((res) => res.json())
     .then((data) => {
       console.log("Received from backend:", data);
